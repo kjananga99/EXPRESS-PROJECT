@@ -20,9 +20,12 @@ const userSchema = mongoose.Schema({
         default: false
     },
     verificationCode:{
-        type: Number,
+        type: String,
         select: false
     },
+    verificationCodeValidation: {
+        type: Date,
+      },
     forgotPasswordCode:{
         type: String,
         select: false
