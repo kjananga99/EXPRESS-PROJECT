@@ -33,7 +33,7 @@ exports.signup = async (req, res) => {
             result,
         })
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 };
 
